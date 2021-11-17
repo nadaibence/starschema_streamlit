@@ -26,7 +26,7 @@ pred = float(pred / 1000000)
 
 st.write(f"""""")
 st.write(f"""""")
-st.write(f'The real estate costs approx. **{pred["Pred"]:.2f}** million HUF.')
+st.write(f'The real estate costs approx. **{pred:.2f}** million HUF.')
 
 
 
