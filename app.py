@@ -22,7 +22,7 @@ st.markdown(f"""<html>The balcony area is <b>{balcony}</b> m<sup>2</sup></html>"
 # pred = pred.json()
 
 pred = random.randint(30000000, 40000000)
-pred = pred / 1000000
+pred = float(pred / 1000000)
 
 st.write(f"""""")
 st.write(f"""""")
